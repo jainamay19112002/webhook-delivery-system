@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases & Runtime Files
+*.db
+*.sqlite
+webhook_system.db
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/build/
+.DS_Store
+
+# Environment / Logs
+.env
+*.log
